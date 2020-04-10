@@ -1,9 +1,9 @@
 apiVersion: v1 #kubernetes api version
 kind: Pod
 metadata:
-  name: webapp
+  name: webapp  #application name
 spec:
   containers:
-  - name: webapp
-    image: richardchesterwood/k8s-fleetman-webapp-angular:release0
+  - name: webapp  #container name
+    image: richardchesterwood/k8s-fleetman-webapp-angular:release0  # docker image url (bkz. dockerHub)
 
