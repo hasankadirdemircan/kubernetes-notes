@@ -22,7 +22,7 @@ Bu hizmlet türleri;
  -  Selector olmadan oluşturulan bir hizmet, karşılık gelen Endpoints nesnesini de oluşturmaz. Bu kullanıcıların bir service'i belirli uç noktarala manuel olarak eşlemelerini sağlar. Selector'in bulunmamasının başka bir olasılığıda kesinlikle `type:ExternalName` kullanmanızdır. 
 	 
  #### Services and Labels
- <a href="#"><img src=" https://user-images.githubusercontent.com/34090058/79048245-67c74180-7c24-11ea-95fd-add5803afc8f.png" width="400"></a>
+ <a href="#"><img src="https://user-images.githubusercontent.com/34090058/79048245-67c74180-7c24-11ea-95fd-add5803afc8f.png" width="400"></a>
  - Service bir dizi pod için trafiği yönlendirir ve uygulamayı etkilemeden k8'lerde ölmesine ve çoğalmasına izin verir.(service'ler pod2ları ortak bir port üzerinden expose eder.) Böylece eğer bir node/port çalışmıyorsa bu alanları dahili olarak yeniden oluşturuyorsa uygulama zarar görmez.
  - Label'lar key-value çiftleridir. Oluşturma sırasında veya daha sonrada eklenebilir.
  - Minikube cluster'ı çalıştırdığımızda default olarak bir service oluşturulur.
