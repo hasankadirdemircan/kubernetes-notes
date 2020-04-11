@@ -18,5 +18,24 @@ spec:
 
   type: NodePort
 
- 
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: fleetman-queue  # Unique key of the Service instance
+
+spec:
+  # This efines which pods are going to be represented by this Service
+  # The service becomes a network endpoint for either other services
+  # or maybe external users to connec to (eg browser)
+  selector:
+    app: queue
+  # Accept traffic sent to port
+  ports:
+    - name: http
+      port: 8161
+      nodePort: 30010
+
+  type: NodePort
+
 
