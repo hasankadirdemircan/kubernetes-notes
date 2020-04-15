@@ -9,7 +9,7 @@
    - Bu aslında ReplicaSet nesnelerini asla manipüle etmeniz gerekmeyeceği anlamına gelir: bunun yerine bir `Deployment` kullanın ve uygulamanızı spec bölümünde tanımlayın.
 
 - Kısacası pod'umuzdan kaç tane istediğimizi belirttiğimiz bir özelliktir. Eğer pod'umuz ölürse/crash olursa yedekte başka bir pod ayağa kaldırdıysak (ReplicaSet: 2), böylelikle uygulamamıza gelen istekler diğer canlı olan pod'a yöneleceği için erişim kısıtı olmayacaktır.
-- Aynı zamanda scalling olarak geçen bu özellik ile uygulamamıza yoğun erişimler olduğunda yükü pod'lar arasına yayacağı için daha fazla erişim kaldırabilecektir.
+- Aynı zamanda scaling olarak geçen bu özellik ile uygulamamıza yoğun erişimler olduğunda yükü pod'lar arasına yayacağı için daha fazla erişim kaldırabilecektir.
 
 #### Deploy Kubernetes of Pod
 ```
