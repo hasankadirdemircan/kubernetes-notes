@@ -34,8 +34,11 @@ Bu hizmlet türleri;
     <td><a href="#"><img src="https://user-images.githubusercontent.com/34090058/79047909-39e0fd80-7c22-11ea-9734-cdf45bb496ee.png" width="400"></a></td>
 </table>
 
-
-#### Deploy Kubernetes
+#### Deploy Kubernetes of Pod
+```
+kubectl apply -f first-pods.yaml
+```
+#### Deploy Kubernetes of Service
 ```
 kubectl apply -f webapp-service.yaml
 ```
@@ -53,7 +56,7 @@ minikube ip
 <minikubeIp>:30080
 ```
 #### image new tag pull dockerHub
-Bkz:  pods/first-pods.yaml spec.container.image update
+Bkz:  first-pods.yaml spec.container.image update
 
 #### Describe Service
 ```
