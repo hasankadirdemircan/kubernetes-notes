@@ -42,3 +42,9 @@ kubectl delete po --all
 kubectl describe rs webapp
 ```
 **NOT:** We deleted it, but pod will form again. (2 pod, beacuse replicaset: 2)
+
+#### and Browser Test
+```
+<minikubeIp>:30080
+```
+**NOT:** Zero timeout and %100 accessibility (when you kill one of the two pods)
