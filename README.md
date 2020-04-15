@@ -1,3 +1,18 @@
-# kubernetes-note
+<h1 align="center"> k8s </h1> <br>
+<p align="center">
+  <a href="https://user-images.githubusercontent.com/34090058/79386833-64f58500-7f73-11ea-891f-6e5dbd6dfcda.png">
+    <img alt="Techs" title="Techs" src="https://user-images.githubusercontent.com/34090058/79386833-64f58500-7f73-11ea-891f-6e5dbd6dfcda.png"width="400">
+  </a>
+</p>
 
-test ec2 machine
+- Kubernetes ile ilgili çalışmalarımı içermektedir.
+- Amacım Türkçe kaynak oluşturmak ve ilerleyen zamanda bir blog yazmaktır.
+- Her klasör içerisinde açıklama ve örnek kodlamalar bulunmaktadır.
+
+ ## Overview
+
+- [Pods](https://github.com/hasankadirdemircan/kubernetes-notes/tree/master/pod)
+
+- [Services]([https://github.com/hasankadirdemircan/kubernetes-notes/tree/master/service)
+
+- [ReplicaSets](https://github.com/hasankadirdemircan/kubernetes-notes/tree/master/replicaset)
