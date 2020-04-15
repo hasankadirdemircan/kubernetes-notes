@@ -8,11 +8,13 @@
 - Kubernetes ile ilgili çalışmalarımı içermektedir.
 - Amacım Türkçe kaynak oluşturmak ve ilerleyen zamanda bir blog yazmaktır.
 - Her klasör içerisinde açıklama ve örnek kodlamalar bulunmaktadır.
+- Katkı yapabilirsiniz :), iletişim için,  hkdemircan06@gmail.com
 
  ## Overview
 
 - [Pods](https://github.com/hasankadirdemircan/kubernetes-notes/tree/master/pod)
 
 - [Services](https://github.com/hasankadirdemircan/kubernetes-notes/tree/master/service)
+   - [Services-Pods-Example](https://github.com/hasankadirdemircan/kubernetes-notes/tree/master/pod-service-example)
 
 - [ReplicaSets](https://github.com/hasankadirdemircan/kubernetes-notes/tree/master/replicaset)
