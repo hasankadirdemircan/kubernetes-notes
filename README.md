@@ -13,6 +13,6 @@
 
 - [Pods](https://github.com/hasankadirdemircan/kubernetes-notes/tree/master/pod)
 
-- [Services]([https://github.com/hasankadirdemircan/kubernetes-notes/tree/master/service)
+- [Services](https://github.com/hasankadirdemircan/kubernetes-notes/tree/master/service)
 
 - [ReplicaSets](https://github.com/hasankadirdemircan/kubernetes-notes/tree/master/replicaset)
