@@ -18,3 +18,6 @@
    - [Services-Pods-Example](https://github.com/hasankadirdemircan/kubernetes-notes/tree/master/pod-service-example)
 
 - [ReplicaSets](https://github.com/hasankadirdemircan/kubernetes-notes/tree/master/replicaset)
+- [Deployments](https://github.com/hasankadirdemircan/kubernetes-notes/blob/master/deployment)
+
+
