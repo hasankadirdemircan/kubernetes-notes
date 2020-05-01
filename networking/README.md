@@ -14,10 +14,12 @@
  - namespace k8s de objeleri ayırmamıza/gruplamamıza yarar.
  
  ### Namespaces
+ 
  <table>
      <td><a href="#"><img src="https://user-images.githubusercontent.com/34090058/80845550-37b30300-8c12-11ea-98b7-764ff8300edf.png" width="400"></a></td>
     <td><a href="#"><img src="https://user-images.githubusercontent.com/34090058/80845554-3a155d00-8c12-11ea-8ae9-07d26edd3d94.png" width="400"></a></td>
 </table>
+
  - Kubernetes objelerini/resource ayırmamıza/gruplamamıza yarar.
  - Her kubernetes resource yalnızca bir namespace alanına ait olabilir.
  - Cluster kaynaklarını birden çok kullanıcı arasında bölmenin bir yoludur.
