@@ -31,9 +31,11 @@
 	        - İlk uygulamada kube-public ad alanı (ve küme bilgisi yapılandırma haritası) kubeadm tarafından oluşturulur. Bu, bunların kubeadm ile önyüklenmeyen kümeler için mevcut olmayacağı anlamına gelir.    
 
 ### Namespaces and DNS
+
 <p align="center">
 <a href="#"><img src="https://user-images.githubusercontent.com/34090058/80845560-3eda1100-8c12-11ea-99de-52786770dd04.png" width="700"></a>
 </p>
+
 - Bir service oluşturduğumuzda karşılık gelen bir entry DNS oluşturulur.
 - Bi entry DNS `<sevice-name>.<namespace-name>.svc.cluster.local` formundadır.
 - Yani yeni bir container yalnızca `<service-name>` kullanılıyorsa bir namespace'elocal olan hizmete çözümlenir.
