@@ -20,6 +20,7 @@
     <td><a href="#"><img src="https://user-images.githubusercontent.com/34090058/80845554-3a155d00-8c12-11ea-8ae9-07d26edd3d94.png" width="400"></a></td>
 </table>
 
+
  - Kubernetes objelerini/resource ayırmamıza/gruplamamıza yarar.
  - Her kubernetes resource yalnızca bir namespace alanına ait olabilir.
  - Cluster kaynaklarını birden çok kullanıcı arasında bölmenin bir yoludur.
@@ -28,6 +29,7 @@
 	 -  `kube-system` Kubernetes sistemi tarafından oluşturulan objeler için namespace.
 	   -  `kube-public` Herkesin görebileceği bir yapılandırma haritası oluşturmak için yeni bir kube-public ad alanı sunuyoruz . Otomatik oluşturulur ve tüm kullanıcılar tarafından okunabilir(kimliği doğrulanmamış olanlar dahil.) Bu namespace, çoğunlukla cluster kullanımı için ayrılmıştır. 
 	        - İlk uygulamada kube-public ad alanı (ve küme bilgisi yapılandırma haritası) kubeadm tarafından oluşturulur. Bu, bunların kubeadm ile önyüklenmeyen kümeler için mevcut olmayacağı anlamına gelir.    
+
 ### Namespaces and DNS
 <p align="center">
 <a href="#"><img src="https://user-images.githubusercontent.com/34090058/80845560-3eda1100-8c12-11ea-99de-52786770dd04.png" width="700"></a>
