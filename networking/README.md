@@ -10,6 +10,7 @@
  - Pod'ların oluşturulurken bir ip adresi atanır.
  - Pod'lar güncellendiğinde veya down olduğunda tekrar ayağa kalkarken yeni bir ip adresi atanmaktadır.
  - Front-end back-end ve database birbirlerini uzun süre ip ile erişmesi imkansızdır.
+ - Dış dünyaya açılmasını istemediğimiz service'leri ClusterIP olarak tanımlamayı unutmayalım.
  - Burada işin içerisine namespaces ve kube-dns'ler girmektedir.
  - namespace k8s de objeleri ayırmamıza/gruplamamıza yarar.
  
