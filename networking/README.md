@@ -1,7 +1,7 @@
-
-<h1 align="center"> K8s Networking Nedir? </h1> <br>
+<h1 align="center"> k8s Networking Nedir? </h1> <br>
 <p align="center">
   <a href="https://user-images.githubusercontent.com/34090058/80845541-31bd2200-8c12-11ea-8738-2ff872ba3ffe.png">
+    <img alt="Techs" title="Techs" src="https://user-images.githubusercontent.com/34090058/80845541-31bd2200-8c12-11ea-8738-2ff872ba3ffe.png"width="600">
   </a>
 </p>
 
