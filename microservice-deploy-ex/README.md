@@ -23,7 +23,7 @@ kubectl apply -f workloads.yaml
 ```
 kubectl apply -f services.yaml
 ```
-## pod logs
+#### pod logs
 kubectl logs `<podName>`
 ```
 kubectl logs position-simulator-f48b877cb-xhwlz
