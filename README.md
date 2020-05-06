@@ -1,4 +1,4 @@
-<h1 align="center"> k8s </h1> <br>
+<h1 align="center"> K8s </h1> <br>
 <p align="center">
   <a href="https://user-images.githubusercontent.com/34090058/79386833-64f58500-7f73-11ea-891f-6e5dbd6dfcda.png">
     <img alt="Techs" title="Techs" src="https://user-images.githubusercontent.com/34090058/79386833-64f58500-7f73-11ea-891f-6e5dbd6dfcda.png"width="400">
