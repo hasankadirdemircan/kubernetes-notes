@@ -1,4 +1,4 @@
-<h1 align="center"> Pod Nedir? </h1> <br>
+<h1 align="center"> K8s Pod Nedir? </h1> <br>
 
 Konteyner ‘ların çalışma alanı denilebilir. Bir pod içerisinde birden fazla konteyner çalışabilir. Kubernetes tarafında çalışma şekli gereği yeni bir deploy isteği geldiğinde pod’un yeni versiyonu oluşturulur ve çalıştığı görüldüğünde diğer pod versiyonu kapatılır. Dolayısıyla pod içerisinde birden fazla konteyner olduğu durumda diğer uygulamala konteyner’ları etkileneceğinden bir pod içerisinde bir konteyner tavsiye edilir. Pod öldüğünde tekrar geri kalkmaz aynı imajdan onun yerine yeni bir pod ortaya çıkar.
 #### Screnshoots
